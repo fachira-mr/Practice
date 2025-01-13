@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fachira's Practice</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div style="text-align: center;">
+            <h1>Hi! Welcome ^o^</h1>
+            <p>Well, I'm learning and practicing Javascript</p>
+            <p>First, take a look at the options below! Which one do you prefer?</p>
+
+            <button id="default" style="background-color: white; color: black;">Default</button>
+            <button id="dark" style="background-color: black; color: white;">Dark</button>
+            <button id="grey" style="background-color: gainsboro; color: rgb(60, 60, 60);">Grey</button>
+            <button id="blue" style="background-color: cornflowerblue; color: cornsilk;">Blue</button>
+            <button id="beige" style="background-color: beige; color: chocolate;">Beige</button>
+            <button id="pink" style="background-color: pink; color: brown;">Pink</button>
+
+            <p>By the way, how are you feeling today?</p>
+            <button id="happy">Happy</button>
+            <button id="sad">Sad</button>
+            <button id="angry">Angry</button>
+            <button id="awkward">Awkward</button>
+            <button id="dontKnow">I don't Know</button>
+
+            <p id="emoji" style="font-size: 50px; line-height: 10px;"></p>
+
+            <p>Now, from 1-10, try to guess the number that will appear below!</p>
+            <input id="answer" type="number" min="1" max="10"> <br>
+            <button id="checkButton" onclick="checkAnswer()" style="margin-top: 10px;">Check</button>
+            <p id="result"></p>
+
+            <p>Hmm, I think that's enough for now. But by the way, do you like Pocoyo?</p>
+           
+            <button id="img1">Yes</button>
+            <button id="img2">No</button>
+
+            <p id="lastText"></p>
+            
+            <div class="img-container">
+                <img id="gift" src="" alt="">
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>

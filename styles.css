@@ -1,0 +1,45 @@
+
+* {
+    font-family: 'Trebuchet MS';
+}
+
+body {
+    padding: 10px;
+    border: 10px solid;
+}
+
+.default{
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.grey {
+    background-color: gainsboro;
+    color: rgb(60, 60, 60);
+}
+
+.blue {
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.beige {
+    background-color: beige;
+    color: chocolate;
+}
+
+.pink {
+    background-color: pink;
+    color: brown;
+}            
+
+.img-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
